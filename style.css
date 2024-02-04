@@ -674,52 +674,6 @@
   
   
   
-  
-  
-  /*-----------------------------------*\
-    #VIDEO
-  \*-----------------------------------*/
-  
-  .video {
-    background-size: contain;
-    background-position: center top;
-  }
-  
-  .video-banner {
-    position: relative;
-    border-top-right-radius: 80px;
-    border-bottom-left-radius: 120px;
-  }
-  
-  .video .play-btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: var(--radical-red);
-    font-size: 30px;
-    padding: 16px;
-    color: var(--white);
-    border-radius: var(--radius-circle);
-    box-shadow: 0 0 0 0 var(--white_50);
-    z-index: 1;
-    animation: pulse 3s ease infinite;
-  }
-  
-  @keyframes pulse {
-    0% { box-shadow: 0 0 0 0 var(--white_50); }
-    100% { box-shadow: 0 0 0 20px transparent; }
-  }
-  
-  .video-banner::after {
-    inset: 0;
-    background-color: var(--black_30);
-  }
-  
-  
-  
-  
-  
   /*-----------------------------------*\
     #STATS
   \*-----------------------------------*/
@@ -984,14 +938,6 @@
   
   
     /**
-     * VIDEO
-     */
-  
-    .video .play-btn { padding: 25px; }
-  
-  
-  
-    /**
      * STATS
      */
   
@@ -1201,19 +1147,6 @@
       gap: 60px;
     }
   
-  
-  
-    /**
-     * VIDEO
-     */
-  
-    .video-banner {
-      max-width: 75%;
-      margin-inline: auto;
-    }
-  
-  
-  
     /**
      * FOOTER
      */
@@ -1221,9 +1154,6 @@
     .footer .grid-list { grid-template-columns: 1fr 0.6fr 0.6fr 1.2fr; }
   
   }
-  
-  
-  
   
   
   /**
@@ -1342,26 +1272,7 @@
       right: -60px;
       z-index: -1;
     }
-  
-  
-  
-    /**
-     * VIDEO
-     */
-  
-    .video-shape-1 {
-      top: -50px;
-      left: 0;
-    }
-  
-    .video-shape-2 {
-      top: -80px;
-      right: 120px;
-      z-index: 1;
-    }
-  
-  
-  
+ 
     /**
      * BLOG
      */
