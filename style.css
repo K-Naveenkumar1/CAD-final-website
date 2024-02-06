@@ -442,7 +442,7 @@
   
   
   /*-----------------------------------*\
-    #CATEGORY
+    #Course material
   \*-----------------------------------*/
   
   .category .section-subtitle { color: var(--radical-red); }
@@ -483,6 +483,7 @@
     max-width: max-content;
     margin-inline: auto;
     border-radius: var(--radius-5);
+    
   }
   
   
