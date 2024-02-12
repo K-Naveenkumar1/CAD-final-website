@@ -17,6 +17,7 @@
     - custom css link
   -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- 
     - google font link
@@ -166,7 +167,7 @@
       <section class="section about" id="about" aria-label="about">
         <div class="container">
 
-          <figure class="about-banner">
+          <figure class="about-banner" data-aos="fade-in">
 
             <div class="img-holder" style="--width: 520; --height: 370;">
               <img src="images/about-banner.jpg" width="520" height="370" loading="lazy" alt="about banner"
@@ -181,7 +182,7 @@
 
           </figure>
 
-          <div class="about-content">
+          <div class="about-content" data-aos="fade-left">
 
             <p class="section-subtitle">About Us</p>
 
@@ -232,7 +233,7 @@
       -->
 
       <section class="section category" aria-label="category">
-        <div class="container">
+        <div class="container" data-aos="fade-left">
 
           <p class="section-subtitle">Online Courses</p>
 
@@ -339,7 +340,7 @@
       -->
 
       <section class="section course" id="courses" aria-label="course">
-        <div class="container">
+        <div class="container" data-aos="fade-right">
 
           <p class="section-subtitle">Popular Course Materials</p>
 
@@ -348,7 +349,7 @@
           <ul class="grid-list">
 
             <li>
-              <div class="course-card">
+              <div class="course-card" >
 
                 <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
                   <img src="images/course.jpg" width="370" height="220" loading="lazy"
@@ -598,7 +599,7 @@
       -->
 
       <section class="section stats" aria-label="stats">
-        <div class="container">
+        <div class="container" data-aos="fade-left">
 
           <ul class="grid-list">
 
@@ -645,7 +646,7 @@
 
       <section class="section blog has-bg-image" id="blog" aria-label="blog"
         style="background-image: url('images/blog-bg.svg')">
-        <div class="container">
+        <div class="container" data-aos="fade-down-left">
 
           <p class="section-subtitle">Latest Notifications</p>
 
@@ -982,6 +983,9 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
